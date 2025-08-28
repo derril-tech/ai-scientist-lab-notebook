@@ -1,0 +1,22 @@
+p, admin, /api/v1/*, *
+p, user, /api/v1/auth/*, *
+p, user, /api/v1/documents, GET
+p, user, /api/v1/documents, POST
+p, user, /api/v1/documents/*, GET
+p, user, /api/v1/datasets, GET
+p, user, /api/v1/datasets, POST
+p, user, /api/v1/datasets/*, GET
+p, user, /api/v1/qa, POST
+p, user, /api/v1/qa/answers/*, GET
+p, user, /api/v1/summaries/*, POST
+p, user, /api/v1/summaries/experiments, GET
+p, user, /api/v1/plots, GET
+p, user, /api/v1/plots, POST
+p, user, /api/v1/plots/*, GET
+p, user, /api/v1/exports/*, GET
+p, user, /api/v1/bundles/notebook, POST
+p, user, /api/v1/me, GET
+p, user, /api/v1/usage, GET
+
+g, user1, user
+g, admin1, admin
